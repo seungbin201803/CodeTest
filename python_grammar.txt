@@ -1,0 +1,42 @@
+1. Data type
+	<number>
+		- 1e9: billion
+		- round(number, position)
+		- **: power
+	<list>
+		- for _ in range(5):
+		- array = [[0] * m for _ in range(n)]: N*M array
+		- array methods
+			- array.append(element) // O(1)
+			- array.sort(), array.sort(reverse=True)
+			- array.reverse()
+			- array.insert(index, element) // O(N)
+			- array.count(element)
+			- array.remove(element) // O(N)
+				- removing element: result = [i for i in a if i not in remove_set]
+	<strings>
+	<tuple>
+	<dictionary>
+	<set>
+
+2. If statement
+
+3. Loops
+
+4. Function
+	- global a insdie function: when you want to change the value of the variable a outside of the function
+	- Lambda express: lambda a,b: a+b
+
+5. Input/output
+	<input>
+		- The number of data: int(input())
+		- Data seperated by blanks: data = list(map(int, input().split()))
+		- A few data seperated by blanks: n, m, k = map(int, input().split())
+		- But input() is slow. When the number of data is large, you have to use sys.stdin.readline()
+		- import sys
+	 	  data = sys.stdin.readline().rstrip()
+			- rstrip(): remove enter(line break)
+	<output>
+		- print(f"The answer is {answer}.")
+
+6. Library
